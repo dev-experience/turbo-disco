@@ -6,8 +6,14 @@ const repo = args['repo'];
 async function main() {
     try { hello = require('./../../week1/helloworld.js') }
     catch (e) {
-        await functions.throwError("Searching for 'helloworld.js'... file cannot be found", user, repo)
-        console.log("Searching for 'helloworld.js'... file cannot be found");
+        if (e.code === "MODULE_NOT_FOUND") {
+            console.log(`Searching for 'helloworld.js'... file cannot be found at expected place: https://github.com/${user}/${repo}/blob/hello/week1/helloworld.js`);
+            await functions.throwError(`Searching for 'helloworld.js'... file cannot be found at expected place: https://github.com/${user}/${repo}/blob/hello/week1/helloworld.js`, user, repo)
+        }
+        else {
+            console.log(`Searching for 'helloworld.js'... Error: '${e.message}'`);
+            await functions.throwError(`Searching for 'helloworld.js'... Error: '${e.message}'`, user, repo)
+        }
         process.exit(1)
     }
 
@@ -15,8 +21,8 @@ async function main() {
     let test_output = "Hello World"
 
     if (helloworld != test_output) {
-        await functions.throwError(`Got: '${helloworld}', was expecting: '${test_output}'.`, user, repo)
         console.log(`Got: "${helloworld}", was expecting: "${test_output}".`)
+        await functions.throwError(`Got: '${helloworld}', was expecting: '${test_output}'.`, user, repo)
         process.exit(1)
     }
 
