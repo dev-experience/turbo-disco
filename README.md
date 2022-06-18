@@ -16,8 +16,7 @@ Read [GETTING_STARTED.md](/GETTING_STARTED.md) for instructions on how to use th
 </details>
 
 ![Hello World](../../actions/workflows/hello.yml/badge.svg?branch=hello)
-
-
+![Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg?branch=hackervoice)
 
 ## Table of Contents
 
