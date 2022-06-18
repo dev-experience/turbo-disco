@@ -15,6 +15,10 @@ Read [GETTING_STARTED.md](/GETTING_STARTED.md) for instructions on how to use th
 
 </details>
 
+![Hello World](../../actions/workflows/hello.yml/badge.svg)
+
+
+
 ## Table of Contents
 
 * [Week 1](https://github.com/bitprj/intro-to-serverless/#week-1---get-started-with-azure-functions)
