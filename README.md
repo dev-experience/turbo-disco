@@ -15,19 +15,6 @@ Read [GETTING_STARTED.md](/GETTING_STARTED.md) for instructions on how to use th
 
 </details>
 
-Action Workflows:
-
-- 1.2. - ![1.2. Getting Started](../../actions/workflows/hello.yml/badge.svg)
-- 1.4. ![1.4. Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg)
-- ![1.6. twoCatz API](../../actions/workflows/twocatz.yml/badge.svg)
-- ![1.8. [Top Secret]](../../actions/workflows/morse.yml/badge.svg)
-- ![2.2. Emotional Gifs](../../actions/workflows/emotionalgifs.yml/badge.svg)
-- ![2.6. Song4u](../../actions/workflows/song4u.yml/badge.svg)
-- ![3.1. Bunnimage API](../../actions/workflows/bunnimage.yml/badge.svg)
-- ![3.6. Deep Secrets](../../actions/workflows/deepsecrets.yml/badge.svg)
-- ![4.1. Bunnimage Frontend](../../actions/workflows/bunnimage-frontend.yml/badge.svg)
-- ![4.6. twoCatz Frontend](../../actions/workflows/twocatz-frontend.yml/badge.svg)
-
 ## Table of Contents
 
 * [Week 1](https://github.com/bitprj/intro-to-serverless/#week-1---get-started-with-azure-functions)
@@ -44,36 +31,36 @@ Action Workflows:
 
 Build projects to get started with Azure Functions, Cloud Engineering, and Javascript! In addition, set up your development environment with various developer tools like Github and Postman. 
 
-| Category  | Assignment       | Description                                                                         | Learning Objectives                                                                  |
-|-----------|------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Project   | HackerVoice<br />![1.4. Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg) | Build your first HTTP Trigger Azure Function that may or may not let you pass, written in Javascript.    |  <ul><li>VSCode</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
-| Project   | twoCatz API      | Create a REST API that returns multiple pictures of cats, named after your friends. | <ul><li>Consuming API</li><li>Azure functions Locally</li><li>Vanilla JS</li></ul>|
-| Challenge | [Top Secret]     | Build a Serverless Function that converts English to Morse Code                     | <ul><li>npm packages</li><li>Writing HTTP Trigger Functions</li></ul>                                      |
+| Category  | Assignment                                                                               | Description                                                                                           | Learning Objectives                                                                                                          |
+| --------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Project   | HackerVoice<br />![1.4. Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg) | Build your first HTTP Trigger Azure Function that may or may not let you pass, written in Javascript. | <ul><li>VSCode</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
+| Project   | twoCatz API<br />![1.6. twoCatz API](../../actions/workflows/twocatz.yml/badge.svg)      | Create a REST API that returns multiple pictures of cats, named after your friends.                   | <ul><li>Consuming API</li><li>Azure functions Locally</li><li>Vanilla JS</li></ul>                                           |
+| Challenge | [Top Secret]<br />![1.8. [Top Secret]](../../actions/workflows/morse.yml/badge.svg)      | Build a Serverless Function that converts English to Morse Code                                       | <ul><li>npm packages</li><li>Writing HTTP Trigger Functions</li></ul>                                                        |
 
 ### **Week 2** - Working with APIs
 Build projects with awesome APIs from Twilio, Microsoft Cognitive Services, and Giphy! Learn how to read documentation, experiment, and most importantly Google! 
 
-| Category  | Assignment     | Description                                                                                                       | Learning Objectives                                                                  |
-|-----------|----------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Project   | Emotional Gifs | Match your emotions with a gif-tastic Gif from Giphy using a web page and machine learning.                       | <ul><li>Twilio API</li><li>Giphy API</li><li>Azure Functions</li></ul> |
-| Challenge | Song4u.js      | Create an API Endpoint that takes in an image of a face and calls you back with a song matching how old you look! | <ul><li> Consuming API </li><li> Write HTTP Trigger Function </li><li> Vanilla Javascript</li></ul> |
+| Category  | Assignment                                                                                      | Description                                                                                                       | Learning Objectives                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Project   | Emotional Gifs<br />![2.2. Emotional Gifs](../../actions/workflows/emotionalgifs.yml/badge.svg) | Match your emotions with a gif-tastic Gif from Giphy using a web page and machine learning.                       | <ul><li>Twilio API</li><li>Giphy API</li><li>Azure Functions</li></ul>                              |
+| Challenge | Song4u.js<br />![2.6. Song4u](../../actions/workflows/song4u.yml/badge.svg)                     | Create an API Endpoint that takes in an image of a face and calls you back with a song matching how old you look! | <ul><li> Consuming API </li><li> Write HTTP Trigger Function </li><li> Vanilla Javascript</li></ul> |
 
 
 ### **Week 3** - Incorporate a Database
 Build projects with Blob Storage and a NoSQL database to store data recieved through your serverless function!  
 
-| Category  | Assignment       | Description                                                                                                      | Learning Objectives                                                                  |
-|-----------|------------------|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Project   | Bunnimage API    | Create a File Sharing API that saves images that are able to be downloaded on another device with a secret code. | <ul><li>VSCODE</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
-| Challenge | Deep Secrets API | Everyone has secrets. Text your confessions to a number and receive someone else's back.                         | <ul><li>Consuming API</li><li>Write HTTP Trigger Function</li><li>Vanilla Javascript</li></ul>                   |
+| Category  | Assignment                                                                                    | Description                                                                                                      | Learning Objectives                                                                                                          |
+| --------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Project   | Bunnimage API<br />![3.1. Bunnimage API](../../actions/workflows/bunnimage.yml/badge.svg)     | Create a File Sharing API that saves images that are able to be downloaded on another device with a secret code. | <ul><li>VSCODE</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
+| Challenge | Deep Secrets API<br />![3.6. Deep Secrets](../../actions/workflows/deepsecrets.yml/badge.svg) | Everyone has secrets. Text your confessions to a number and receive someone else's back.                         | <ul><li>Consuming API</li><li>Write HTTP Trigger Function</li><li>Vanilla Javascript</li></ul>                               |
 
 ### **Week 4** - Building a Frontend
 Build a frontend with HTML/CSS/JS to interact with your serverless functions! 
 
-| Category  | Assignment       | Description                                                                                                                | Learning Objectives                                                                  |
-|-----------|------------------|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Project   | Bunnimage App    | Create a Frontend that allows users interact with the Bunnimage API which stores and retrieves images.                     | <ul><li>VSCODE</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
-| Challenge | Deep Secrets App | Create a Frontend that allows users interact with the Deep Secrets API which stores and retrieves secrets from a database. | <ul><li>Consuming API</li><li>Write HTTP Trigger Function</li><li>Vanilla Javascript</li></ul>                   |
+| Category  | Assignment                                                                                                                                                                                    | Description                                                                                                                | Learning Objectives                                                                                                          |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Project   | Bunnimage App<br />![4.1. Bunnimage Frontend](../../actions/workflows/bunnimage-frontend.yml/badge.svg)<br />![4.6. twoCatz Frontend](../../actions/workflows/twocatz-frontend.yml/badge.svg) | Create a Frontend that allows users interact with the Bunnimage API which stores and retrieves images.                     | <ul><li>VSCODE</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
+| Challenge | Deep Secrets App                                                                                                                                                                              | Create a Frontend that allows users interact with the Deep Secrets API which stores and retrieves secrets from a database. | <ul><li>Consuming API</li><li>Write HTTP Trigger Function</li><li>Vanilla Javascript</li></ul>                               |
 
 ## :zap: Build your Own Project (Week 5-8)
 
