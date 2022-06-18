@@ -39,11 +39,14 @@ Action Workflows:
 ## :zap: Learn about Azure Functions! (Week 1-4)
 
 ### **Week 1** - Get Started with Azure Functions!
+
+[1.2. Getting Started](../../actions/workflows/hello.yml/badge.svg)
+
 Build projects to get started with Azure Functions, Cloud Engineering, and Javascript! In addition, set up your development environment with various developer tools like Github and Postman. 
 
 | Category  | Assignment       | Description                                                                         | Learning Objectives                                                                  |
 |-----------|------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| Project   | HackerVoice | Build your first HTTP Trigger Azure Function that may or may not let you pass, written in Javascript.    |  <ul><li>VSCode</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
+| Project   | HackerVoice<br />[1.4. Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg) | Build your first HTTP Trigger Azure Function that may or may not let you pass, written in Javascript.    |  <ul><li>VSCode</li><li>Github</li><li>Postman</li><li>Azure functions Locally</li><li>Testing Javascript Knowledge</li></ul> |
 | Project   | twoCatz API      | Create a REST API that returns multiple pictures of cats, named after your friends. | <ul><li>Consuming API</li><li>Azure functions Locally</li><li>Vanilla JS</li></ul>|
 | Challenge | [Top Secret]     | Build a Serverless Function that converts English to Morse Code                     | <ul><li>npm packages</li><li>Writing HTTP Trigger Functions</li></ul>                                      |
 
