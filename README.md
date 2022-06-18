@@ -15,8 +15,18 @@ Read [GETTING_STARTED.md](/GETTING_STARTED.md) for instructions on how to use th
 
 </details>
 
-![Hello World](../../actions/workflows/hello.yml/badge.svg?branch=hello)
-![Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg?branch=hackervoice)
+Action Workflows:
+
+- ![1.2. Hello World](../../actions/workflows/hello.yml/badge.svg)
+- ![1.4. Hacker Voice](../../actions/workflows/hackervoice.yml/badge.svg)
+- ![1.6. twoCatz API](../../actions/workflows/twocatz.yml/badge.svg)
+- ![1.8. [Top Secret]](../../actions/workflows/morse.yml/badge.svg)
+- ![2.2. Emotional Gifs](../../actions/workflows/emotionalgifs.yml/badge.svg)
+- ![2.6. Song4u](../../actions/workflows/song4u.yml/badge.svg)
+- ![3.1. Bunnimage API](../../actions/workflows/bunnimage.yml/badge.svg)
+- ![3.6. Deep Secrets](../../actions/workflows/deepsecrets.yml/badge.svg)
+- ![4.1. Bunnimage Frontend](../../actions/workflows/bunnimage-frontend.yml/badge.svg)
+- ![4.6. twoCatz API](../../actions/workflows/twocatz-frontend.yml/badge.svg)
 
 ## Table of Contents
 
