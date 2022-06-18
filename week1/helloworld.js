@@ -1,3 +1,3 @@
-export function hello() {
-    return "Hello World";
-}
+const hello = () => "Hello World";
+
+module.exports = hello;
